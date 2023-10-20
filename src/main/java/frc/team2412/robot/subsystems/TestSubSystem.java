@@ -73,7 +73,7 @@ public class TestSubSystem extends SubsystemBase{
         motor.set(MOTOR_SPEED);
     }
     public void setMotor(double speed);
-    motor.setSpeed(speed)
+    motor.setSpeed(speed);
 //similar to a while loop, but for while loop motor on
     public void periodic(){
         //constantly print the current angle
